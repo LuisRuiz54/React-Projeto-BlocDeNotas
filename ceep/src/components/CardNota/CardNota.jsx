@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import "./style.css"
+import './style.css';
 
 class CardNota extends Component {
     render() { 
         return ( 
             <section className="card-nota">
-              <header>
-               <h3>Titulo</h3>
+              <header className="card-nota_cabecalho">
+               <h3 className="card-nota_titulo">Titulo</h3>
               </header>
-             <p>Escriva sua Nota aqui</p>
+             <p className="card-nota_texto ">Escriva sua Nota aqui</p>
             </section>
         
-               );
+        );
     }
 }
  
