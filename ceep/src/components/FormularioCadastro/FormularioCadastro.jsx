@@ -24,12 +24,10 @@ class FormularioCadastro extends Component {
     this.categoria = evento.target.value;
   }
 
-
-  _criarNota(evento){
+  _criarNota(evento) {
     evento.preventDefault();
     evento.stopPropagation();
     this.props.criarNota(this.titulo, this.texto, this.categoria);
-    
   }
 
   render() {
